@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:teste1/models/endereco_model.dart';
+import 'package:atividade_cep_cache/Models/endereco_model.dart';
 import 'package:http/http.dart' as http;
 
 class ViaCepServices {
