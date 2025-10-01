@@ -30,7 +30,7 @@ class CepFormatter extends TextInputFormatter {
 
     return TextEditingValue(
       text: novoCEP,
-      selection: TextSelection.collapsed(offset: newText.length),
+      selection: TextSelection.collapsed(offset: novoCEP.length),
     );
   }
 }
